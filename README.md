@@ -6,7 +6,7 @@ This repository contains comprehensive study materials for UST DevOps Training.
 
 # Technical Learning Roadmap
 
-# **Fundamentals of Networking (Summary)**  
+# **Fundamentals of Networking**  
 
 ## **1️⃣ Basics**  
 - **Client-Server & Peer-to-Peer** – Client requests, server responds; P2P shares resources directly.  
