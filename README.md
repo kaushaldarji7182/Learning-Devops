@@ -26,20 +26,15 @@ This repository contains comprehensive study materials for UST DevOps Training.
 - **Remote Repositories:** Cloning, Forking, Pulling, Pushing, SSH Keys  
 - **GitHub Administration:** User Management, Security, Hooks, LFS  
 
-## 4. Python Programming  
-- **Basics:** Variables, Strings, Numbers, Loops, Functions, OOP  
-- **Advanced Concepts:** Exception Handling, Regular Expressions  
-- **Development Tools:** VS Code, Jupyter Notebooks  
-
+## 4. Database Fundamentals  
+- **Concepts:** RDBMS, Tables, Keys, Normalization, Transactions, ACID Properties  
+- **SQL Basics:** SELECT, INSERT, UPDATE, DELETE  
+- **Database Design:** Indexes, Backup & Recovery
+- 
 ## 5. Linux & Bash Scripting  
 - **Essentials:** Command Line, File Management, User Permissions, Networking  
 - **Bash Scripting:** Variables, Loops, Conditions, Functions, AWK, SED  
 - **WSL (Windows Subsystem for Linux):** Setup, File Access, Networking  
-
-## 6. Database Fundamentals  
-- **Concepts:** RDBMS, Tables, Keys, Normalization, Transactions, ACID Properties  
-- **SQL Basics:** SELECT, INSERT, UPDATE, DELETE  
-- **Database Design:** Indexes, Backup & Recovery  
 
 
 This README provides a structured overview of fundamental technical concepts across multiple domains, helping you track your learning progress. 🚀
