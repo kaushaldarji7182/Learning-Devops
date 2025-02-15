@@ -1,0 +1,37 @@
+#!/bin/bash
+
+# Set project directory (modify as needed)
+PROJECT_DIR="C:/Users/Administrator/Desktop/python/flask"
+PYTHON_FILE="app.py"  # Change this to your main Python file
+
+# Navigate to project directory
+cd "$PROJECT_DIR" || { echo "Directory not found! Exiting..."; exit 1; }
+
+# Create virtual environment if it doesn't exist
+if [ ! -d "pyenv" ]; then
+    echo "Creating virtual environment..."
+    python3 -m venv pyenv
+fi
+
+# Activate virtual environment
+echo "Activating virtual environment..."
+source pyenv/bin/activate
+
+# Install dependencies
+if [ -f "requirements.txt" ]; then
+    echo "Installing dependencies..."
+    pip install -r requirements.txt
+else
+    echo "requirements.txt not found! Skipping dependencies installation..."
+fi
+
+# Run the application
+echo "Starting the application..."
+python "$PYTHON_FILE"
+
+# Deactivate virtual environment
+deactivate
+
+echo "Deployment complete!"
+
+
