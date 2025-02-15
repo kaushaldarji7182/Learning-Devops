@@ -1,0 +1,15 @@
+#STEPS FOR CREATING  AN VIRTUAL ENVIRONMENT AND USING THE REQUIREMENTS.TXT FILE
+python -m venv myenv
+cd folder then
+myenv\Scripts\activate
+pip install requests
+pip freeze > requirements.txt
+deactivate
+
+
+Reinstall Dependencies on Another Machine
+If you need to recreate the environment later, run:
+
+python -m venv myenv
+source myenv/bin/activate  # (Windows: myenv\Scripts\activate)
+pip install -r requirements.txt
